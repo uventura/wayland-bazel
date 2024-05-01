@@ -6,4 +6,5 @@ cc_library(
         "//egl",
         "//src",
     ],
+    visibility = ["//visibility:public"],
 )
