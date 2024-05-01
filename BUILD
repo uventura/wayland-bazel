@@ -6,5 +6,6 @@ cc_library(
         "//egl",
         "//src",
     ],
+    strip_include_prefix = "wayland",
     visibility = ["//visibility:public"],
 )
